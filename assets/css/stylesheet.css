@@ -1,0 +1,113 @@
+body{
+    font-family: 'Cabin', sans-serif !important; /*important para que no choquen clases*/
+}
+
+.ricomida{
+    font-family: 'Lobster', cursive;    /*especial para el logo*/
+}
+header{
+    margin-top: 20px;
+}
+
+.btn h5{
+    font-size:14px;                     /*letra dentro de botones*/
+} 
+
+.linea1{
+    height: 0.5px;
+    background-color: black;
+}
+
+.btn{                                   /*tamaño botones*/
+    margin-top: 30px;
+    width: 45%;
+}
+
+
+.btn-final{                             /*boton final para no mezclar caracteristicas*/
+    width:100px;
+}
+
+.imagenprincipal{
+    width:200px;
+}
+
+.lineaing{
+    height:0.5px;
+    background-color: black;
+    margin-right:70%;
+    
+}
+.linear{
+    height:0.5px;
+    background-color: black;
+}
+.linearr{                           /* le di una clase a cada línea para diferenciarlas*/
+    height:1px;
+    background-color: black;
+    margin-top: 70px;
+
+}
+
+.subtitulo{                         /*caracteristicas letra en negrita*/
+    font-family: 'Cabin';
+    font-weight: 700;
+}
+ol{
+    list-style-position: inside;    /*numeros quedan alineados dentro del parrafo*/
+}
+.masreceta{
+    padding-bottom: 20px;
+}
+.masreceta h2{                      /*titulo recetas relacionadas*/
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
+.carousel-indicators {
+    bottom: -50px !important;       /*important para que no choquen las clases*/
+   
+}
+.carousel-indicators .active {      /*cuando pasa encima cambia de color*/
+    background-color: black;
+}
+.carousel-indicators li {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 50%;             /*puntitos*/
+    background-color: rgba(0, 0, 0, 50%)
+    
+  }
+
+.lista{
+    width:90%;                       /*para centrar y ajustar margenes en version celular*/
+}
+
+.rowcard{
+    padding-left: 10px;             /*para centrar cards version celular*/
+}
+.card{
+    margin-bottom: 15px;            /*espacio entre cards*/
+}
+
+.card-container{
+    margin:;
+}
+
+.final{                             /*seccion antes de footer*/
+    background-color: #DC3545;
+    padding-top: 150px;
+    padding-bottom:150px;
+    color:white;
+    text-align: center;
+    
+}
+
+
+footer h3{
+    background-color: #373A3C;
+    color: white;
+    text-align: center;
+    padding:15px;
+}
